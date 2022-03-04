@@ -167,27 +167,31 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 50px 8%;
     background-color: beige;
     color: black;
     margin: 50px;
     border-radius: 30px;
+
 }
 
 .contato {
-    padding-right: 10% ;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    padding-right: 21% ;
     border-right: 0.4px solid black;
-}
-
-.contato-titulo {
-    font-size: 44px;
-}
-
-.contato-itens {
+    text-align: justify;
     font-size: 20px;
 }
 
+.contato-imagem {
+    text-align: right;
+    width: 22px;
+    justify-content: right;
+}
 
 
 
